@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1.0, minimal-ui">
+    <title>YAK CSS Skelton</title>
+    <link rel="stylesheet" href="yak.css">
+</head>
+<body>
+    <h1 class="text is-link">Heading 1</h1>
+    <h2>Heading 2</h2>
+    <h3>Headig 3</h3>
+    <div>
+        <p>
+            Div and P
+        </p>
+    </div>
+    <p>
+      only p
+  </p>
+    <span>hr</span>
+    <hr>
+    <span>hr short</span>
+    <hr class="primary">
+    
+    <blockquote>
+        <p><em>Ok I am something.</em></p>
+      </blockquote>
+
+
+      
+      <span class="tag is-link-lite">Link</span>
+      <span class="tag is-warning-lite">Warning</span>
+      <span class="tag is-danger-lite">Danger</span>
+
+      <span class="tag is-link">Link</span>
+      <span class="tag is-warning">Warning</span>
+      <span class="tag is-danger">Danger</span>
+
+      <span class="tag is-black">Link</span>
+      <span class="tag is-grey">Warning</span>
+      <span class="tag is-white">Danger</span>
+      <br>
+<br>
+<a class="button" href="#">Button</a>
+<br>
+<a class="button button-outline">Button</a>
+<button class="button button-outline" disabled>Button</button>
+
+<br>
+<input class="button button-clear" type="submit" value="Button">
+
+
+<form action="fvd.php">
+    <label for="nameField">Name</label>
+      <input type="text" placeholder="Makerlog" id="nameField">      
+      <label for="commentField">Comment</label>
+      <textarea placeholder="Hi Dude, tell me some cool stuff…" id="commentField"></textarea>
+      <div class="float-right">
+        <input type="checkbox" id="confirmField">
+        <label class="label-inline" for="confirmField">Need a copy?</label>
+      </div>
+      <input class="button" type="submit" value="Send">
+</form>
+
+<div class="field has-addons">
+    <div class="control">
+      <input class="input" type="text" placeholder="Find a repository">
+    </div>
+    <div class="control">
+      <a class="button is-info">
+        Search
+      </a>
+    </div>
+  </div>
+
+  <pre><code>
+    .black {
+      color: #00000;
+    }s
+    </code></pre>
+
+    <div class="clearfix">
+        <div class="float-left"><b>I am pulled left</b></div>
+        <div class="float-right"><b>I am pulled right</b></div>
+      </div>
+
+      <hr>
+
+      <table>
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Age</th>
+            <th>Height</th>
+            <th>Location</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Stephen Curry</td>
+            <td>27</td>
+            <td>1,91</td>
+            <td>Akron, OH</td>
+          </tr>
+          <tr>
+            <td>Klay Thompson</td>
+            <td>25</td>
+            <td>2,01</td>
+            <td>Los Angeles, CA</td>
+          </tr>
+        </tbody>
+      </table>
+
+
+
+      <h4>Columns</h4>
+      <div class="example" style="padding-bottom:1em">
+        <div>
+            <div class="row">
+                <div class="column column-10"><span class="column-demo">10%</span></div>
+            </div>
+            <div class="row">
+                <div class="column column-20" style="background-color: aliceblue;"><span class="column-demo">20%</span></div>
+                &nbsp;
+                <div class="column column" style="background-color: aliceblue;"><span class="column-demo">rest</span></div>
+            </div>
+            <div class="row">
+                <div class="column column-30"><span class="column-demo">30%</span></div>
+            </div>
+            <div class="row">
+                <div class="column column-40" style="background-color: aliceblue;"><span class="column-demo">40%</span></div>
+                &nbsp;
+                <div class="column column-" style="background-color: aliceblue;"><span class="column-demo">rest</span></div>
+            </div>
+            <div class="row">
+                <div class="column column-50"><span class="column-demo">50%</span></div>
+            </div>
+            <div class="row">
+                <div class="column column-60" style="background-color: aliceblue;"><span class="column-demo">60%</span></div>
+                &nbsp;
+                <div class="column column" style="background-color: aliceblue;"><span class="column-demo">rest</span></div>
+            </div>
+            <div class="row">
+                <div class="column column-70"><span class="column-demo">70%</span></div>
+            </div>
+            <div class="row">
+                <div class="column column-80" style="background-color: aliceblue;"><span class="column-demo">80%</span></div>
+                &nbsp;
+                <div class="column column" style="background-color: aliceblue;"><span class="column-demo">rest</span></div>
+            </div>
+            <div class="row">
+                <div class="column column-90"><span class="column-demo">90%</span></div>
+            </div>
+            <div class="row">
+                <div class="column" style="background-color: aliceblue;"><span class="column-demo">100%</span></div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+    <div class="form-joined">
+      <div class="addon">
+        <input class="input" type="text" placeholder="Find a repository">
+      </div>
+      <div class="addon">
+        <a class="button is-info">
+          A tag
+        </a>
+      </div>
+    </div>
+
+    <div class="form-joined">
+      <div class="addon">
+        <input class="input" type="text" placeholder="Find a repository">
+      </div>
+      <div class="addon">
+        <button class="button is-info">
+          Button
+        </button>
+      </div>
+    </div>
+
+    <section class="is-link-lite">
+      <h2>Heading inside section</h2>
+      <p>
+        Maud Nalpas, Sam Dutton
+Security and Privacy for the Open Web
+What's the role of the browser in enabling security and privacy by default on the open web? How are browsers changing to balance trade-offs and mitigate risk? How can you get involved?
+
+Rowan Merewood
+Cookie Recipes - SameSite and Beyond
+Learn about the different cookie attributes and naming conventions that will help you tailor your cookies for the right situation.
+
+Eiji Kitamura
+Prevent Info Leaks and Enable Powerful Features: COOP and COEP
+Cross-Origin Embedder Policy (COEP) and Cross-Origin Opener Policy (COOP) isolate your origin and enable powerful features. This session helps you understand how it works and why this is important.
+      </p>
+    </section>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+
+</body>
+</html>
